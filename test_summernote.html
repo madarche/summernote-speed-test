@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Test</title>
+
+    <!-- include libraries(jQuery, bootstrap) -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- include summernote css/js-->
+    <link href="summernote.css" rel="stylesheet"/>
+    <script src="summernote.js"></script>
+
+    <script>
+    const date1 = new Date();
+    $(document).ready(function() {
+        $('#summernote-01').summernote();
+        $('#summernote-02').summernote();
+        $('#summernote-03').summernote();
+        $('#summernote-04').summernote();
+        $('#summernote-05').summernote();
+        $('#summernote-06').summernote();
+        $('#summernote-07').summernote();
+        $('#summernote-08').summernote();
+        $('#summernote-09').summernote();
+        $('#summernote-10').summernote();
+        const date2 = new Date();
+	console.log('>>>', date2 - date1)
+    });
+    </script>
+
+  </head>
+  <body>
+    <div id="summernote-01">Hello Summernote 01</div>
+    <div id="summernote-02">Hello Summernote 02</div>
+    <div id="summernote-03">Hello Summernote 03</div>
+    <div id="summernote-04">Hello Summernote 04</div>
+    <div id="summernote-05">Hello Summernote 05</div>
+    <div id="summernote-06">Hello Summernote 01</div>
+    <div id="summernote-07">Hello Summernote 07</div>
+    <div id="summernote-08">Hello Summernote 08</div>
+    <div id="summernote-09">Hello Summernote 09</div>
+    <div id="summernote-10">Hello Summernote 10</div>
+
+  </body>
+</html>
